@@ -12,24 +12,24 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdoapi.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/georasterapi.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/routepartition.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdogcdr.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdogr.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdondme.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdondmx.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdonm.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdordf.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdotopo.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdotype.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdoutl.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdovis3d.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdowfscs.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdowshandlerols.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdowshandlers.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/dbhome_1/md/jlib/sdowspool.jar"/>
-	<classpathentry kind="lib" path="C:/app/Himanshu/product/11.2.0/client_2/jdbc/lib/ojdbc6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Himanshu/Downloads/commons-dbutils-1.6/commons-dbutils-1.6.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/georasterapi.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/routepartition.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdoapi.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdogcdr.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdogr.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdondme.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdondmx.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdonm.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdordf.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdotopo.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdotype.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdoutl.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdovis3d.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdowfscs.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdowshandlerols.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdowshandlers.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdowspool.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/commons-dbutils-1.6.jar"/>
+	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/ojdbc6.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
