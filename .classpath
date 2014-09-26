@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/georasterapi.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/routepartition.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdoapi.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdogcdr.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdogr.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdondme.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdondmx.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdonm.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdordf.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdotopo.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdotype.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdoutl.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdovis3d.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdowfscs.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdowshandlerols.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdowshandlers.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/sdowspool.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/commons-dbutils-1.6.jar"/>
-	<classpathentry kind="lib" path="F:/git_repo/PalHunter/lib/ojdbc6.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/georasterapi.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/routepartition.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdoapi.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdogcdr.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdogr.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdondme.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdondmx.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdonm.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdordf.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdotopo.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdotype.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdoutl.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdovis3d.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdowfscs.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdowshandlerols.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdowshandlers.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/sdowspool.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/commons-dbutils-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="F:/git_repo/PalHunter/lib/ojdbc6.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

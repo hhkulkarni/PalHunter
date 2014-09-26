@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package com.usc.csci587;
 
 import java.sql.Connection;
