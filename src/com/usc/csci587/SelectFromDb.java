@@ -32,13 +32,15 @@ public class SelectFromDb {
 		try {
 			
 			Statement stmt=conn.createStatement();
-			ResultSet rs=stmt.executeQuery("select t.location from trajectories t where t.user=" + uid);
-
-			STRUCT st=(STRUCT) rs.getObject("location");
+			ResultSet rs=stmt.executeQuery("select t.TRAJECTORY from trajectories t where t.user_id=" + uid);
+			STRUCT st=null;
+			while(rs.next()){
+			st=(STRUCT) rs.getObject("trajectory");
+			}
 			JGeometry geom=JGeometry.load(st);
 			double[] temp=geom.getOrdinatesArray();
 			for(int i=0;i<temp.length;i+=2){
-				latlong.add(new Point(temp[i], temp[i+1])); // gtrh
+				latlong.add(new Point(temp[i], temp[i+1]));
 			}
 		   } catch (Exception e) {
 			// TODO Auto-generated catch block
