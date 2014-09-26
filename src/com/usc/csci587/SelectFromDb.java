@@ -38,7 +38,7 @@ public class SelectFromDb {
 			JGeometry geom=JGeometry.load(st);
 			double[] temp=geom.getOrdinatesArray();
 			for(int i=0;i<temp.length;i+=2){
-				latlong.add(new Point(temp[i], temp[i+1]));
+				latlong.add(new Point(temp[i], temp[i+1])); // gtrh
 			}
 		   } catch (Exception e) {
 			// TODO Auto-generated catch block
