@@ -4,9 +4,15 @@ import java.sql.Connection;
 import java.sql.Statement;
 
 public class UpdateDb {
+	
+	private long timestamp;
+	
 
-	public int updateuserTable(String longitude,String lat,String uid){
+	public int updateuserTable(String longitude,String lat,String uid,String timestamp){
+		if(new Long(timestamp)<this.timestamp)
+			return -1;
 		try {
+			this.timestamp=new Long(timestamp);
 			Connection conn=DbUtils.getInstance("jdbc:oracle:thin:@//128.125.163.168:1521/csci585","team1","hp240312");
 			System.out.println("Input parameters longitude:"+longitude+ ",latitude :"+lat);
 			Statement stmt=conn.createStatement();
