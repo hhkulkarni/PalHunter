@@ -2,11 +2,8 @@ package com.usc.csci587;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.Arrays;
-
 import oracle.spatial.geometry.JGeometry;
 import oracle.spatial.geometry.JGeometry.Point;
 import oracle.sql.STRUCT;
