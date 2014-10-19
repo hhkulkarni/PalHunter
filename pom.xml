@@ -28,10 +28,12 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>8.1.15.v20140411</version>
 			  <configuration>
+			      
 			      <webAppSourceDirectory>${basedir}/src/main/webapp</webAppSourceDirectory>
 			    <webApp>
 			      <contextPath>/Hello</contextPath>
 			    </webApp>
+			    
 			  </configuration>
 			</plugin>
         </plugins>
